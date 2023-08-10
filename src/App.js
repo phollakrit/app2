@@ -7,12 +7,7 @@ function App() {
     fontSize: 'larger',
     padding: '3px',
   }
-return (
-  <div>
-    <div style={divStyle}>Hello React</div>
-    <div style={divStyle}>Hello React Native</div>
-  </div>  
-)
+return <div style={divStyle}>Hello React</div>
 }
 
 export default App;
